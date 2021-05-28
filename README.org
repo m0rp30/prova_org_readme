@@ -26,10 +26,32 @@ x=\sqrt{b}                              % even tables, figures
 
 $O(n \log n)$
 
+Il LaTeX sembra non essere gestito qui in github
+
 *** Languages
 #+BEGIN_SRC python
   name = input("Insert your name: ")
   print(f"Hello {name}")
+#+END_SRC
+
+#+BEGIN_SRC c++
+  // Your First C++ Program
+
+  #include <iostream>
+
+  int main() {
+      std::cout << "Hello World!";
+      return 0;
+  }
+#+END_SRC
+
+#+BEGIN_SRC sql
+  CREATE TABLE students (name text, grade int);
+  INSERT INTO students VALUES ("Eric", 83);
+  INSERT INTO students VALUES ("John", 78);
+  INSERT INTO students VALUES ("Andrew", 91);
+  INSERT INTO students VALUES ("Jessica", 95);
+  INSERT INTO students VALUES ("Chris", 79);
 #+END_SRC
 
 ** Link
