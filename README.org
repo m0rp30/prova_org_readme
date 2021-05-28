@@ -6,3 +6,30 @@ Questo è un file di prova per vedere se github gestisce i file .org come i file
 | uno | due |
 |-----|-----|
 | cambo uno | campo due |
+
+** Liste
+- Uno
+- Due
+- [ ] Tre
+- [x] Checked
+
+1. Uno
+2. Due
+3. [ ] Tre
+4. [X] Checked
+
+** Code and others
+%O(n \log n)%
+
+#+BEGIN_SRC python
+  name = input("Insert your name: ")
+  print(f"Hello {name}")
+#+END_SRC
+
+** Link
+[[https://github.com/m0rp30/prova_org_readme/edit/main/README.org][This page!]]
+[[https://picsum.photos/id/237/200/300][Foto di cane]]
+
+** Info
+#TITLE: README
+#AUTHOR: luca canali
