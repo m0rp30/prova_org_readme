@@ -2,6 +2,11 @@
 
 Questo è un file di prova per vedere se github gestisce i file .org come i file .md
 
+** Indici
+Con 1 asterisco si crea un indice di livello 1 con 2 di livello 2 e così via, si possono creare anche delle TODO list
+*** TODO Cosa da fare
+*** DONE cosa già fatta
+
 ** Formattazione del testo
 
 - *bold*
@@ -58,6 +63,18 @@ Questo è un file di prova per vedere se github gestisce i file .org come i file
   INSERT INTO students VALUES ("Andrew", 91);
   INSERT INTO students VALUES ("Jessica", 95);
   INSERT INTO students VALUES ("Chris", 79);
+#+END_SRC
+
+#+BEGIN_SRC ditaa
+    +--------+   +-------+    +-------+
+    |        | --+ ditaa +--> |       |
+    |  Text  |   +-------+    |diagram|
+    |Document|   |!magic!|    |       |
+    |     {d}|   |       |    |       |
+    +---+----+   +-------+    +-------+
+        :                         ^
+        |       Lots of work      |
+        +-------------------------+
 #+END_SRC
 
 *** LaTeX
