@@ -87,6 +87,16 @@ Greek characters \alpha \beta \phi \LaTeX{}  $\varphi$
 
 I link, foto e documenti li gestisce tutti come link
 
+** Commenti
+#+BEGIN_COMMENT
+This is a multi line comment block.
+This is the second line.
+
+This is the second paragraph.
+
+This *is* an /example/ of _some_ syntax +highlighting+ within =links= and ~such~.
+#+END_COMMENT
+
 ** Export info
 #+TITLE: README
 #+AUTHOR: luca canali
