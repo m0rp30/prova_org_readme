@@ -22,6 +22,12 @@ Questo è un file di prova per vedere se github gestisce i file .org come i file
 
 ** Code and others
 *** Latex
+#+BEGIN_SRC latex
+  \begin{equation}                        % arbitrary environments,
+  x=\sqrt{b}                              % even tables, figures
+  \end{equation}                          % etc
+#+END_SRC
+
 \begin{equation}                        % arbitrary environments,
 x=\sqrt{b}                              % even tables, figures
 \end{equation}                          % etc
