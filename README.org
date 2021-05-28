@@ -56,9 +56,14 @@ Il LaTeX sembra non essere gestito qui in github
 
 ** Link
 [[https://github.com/m0rp30/prova_org_readme/edit/main/README.org][This page!]]
+
 [[https://picsum.photos/id/237/200/300][Foto di cane]]
+
+I link, foto e documenti li gestisce tutti come link
 
 ** Export info
 #+TITLE: README
 #+AUTHOR: luca canali
 #+LANGUAGE: it
+
+Qui non vedrete niente perché è una funzionalità per quando si esporta questo testo, provato solo su emacs
