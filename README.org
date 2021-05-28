@@ -2,6 +2,18 @@
 
 Questo è un file di prova per vedere se github gestisce i file .org come i file .md
 
+** Formattazione del testo
+
+- *bold*
+- /italic/
+- _underline_
+- +strike through+
+- =code=
+- ~commands~
+- http://orgmode.org
+
+: small example
+
 ** Tabella
 | uno | due |
 |-----|-----|
@@ -21,20 +33,6 @@ Questo è un file di prova per vedere se github gestisce i file .org come i file
 4. [X] Checked
 
 ** Code and others
-*** Latex
-#+BEGIN_SRC latex
-  \begin{equation}                        % arbitrary environments,
-  x=\sqrt{b}                              % even tables, figures
-  \end{equation}                          % etc
-#+END_SRC
-
-\begin{equation}                        % arbitrary environments,
-x=\sqrt{b}                              % even tables, figures
-\end{equation}                          % etc
-
-$O(n \log n)$
-
-Il LaTeX sembra non essere gestito qui in github
 
 *** Languages
 #+BEGIN_SRC python
@@ -61,6 +59,26 @@ Il LaTeX sembra non essere gestito qui in github
   INSERT INTO students VALUES ("Jessica", 95);
   INSERT INTO students VALUES ("Chris", 79);
 #+END_SRC
+
+*** LaTeX
+
+- Solo alcuni caratteri vengono renderizati  
+  - Working outside of block: \alpha \beta \phi
+  - not working: \LaTeX{}  $\varphi$
+- Per il resto il LaTeX sembra non essere renderizzato
+
+#+BEGIN_LATEX
+\section{Section Title}
+
+This is \emph{emphasized} and $y=x^2$ is an equation.
+
+An example in an LATEX block.
+Another line within this block.
+
+\alpha $x=42y$
+
+Greek characters \alpha \beta \phi \LaTeX{}  $\varphi$
+#+END_LATEX
 
 ** Link
 [[https://github.com/m0rp30/prova_org_readme/edit/main/README.org][This page!]]
