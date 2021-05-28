@@ -19,8 +19,14 @@ Questo è un file di prova per vedere se github gestisce i file .org come i file
 4. [X] Checked
 
 ** Code and others
-%O(n \log n)%
+*** Latex
+\begin{equation}                        % arbitrary environments,
+x=\sqrt{b}                              % even tables, figures
+\end{equation}                          % etc
 
+$O(n \log n)$
+
+*** Languages
 #+BEGIN_SRC python
   name = input("Insert your name: ")
   print(f"Hello {name}")
@@ -30,6 +36,7 @@ Questo è un file di prova per vedere se github gestisce i file .org come i file
 [[https://github.com/m0rp30/prova_org_readme/edit/main/README.org][This page!]]
 [[https://picsum.photos/id/237/200/300][Foto di cane]]
 
-** Info
-#TITLE: README
-#AUTHOR: luca canali
+** Export info
+#+TITLE: README
+#+AUTHOR: luca canali
+#+LANGUAGE: it
