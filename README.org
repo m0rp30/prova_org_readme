@@ -6,6 +6,8 @@ Questo è un file di prova per vedere se github gestisce i file .org come i file
 | uno | due |
 |-----|-----|
 | cambo uno | campo due |
+| altro | |
+|12 | 24|
 
 ** Liste
 - Uno
