@@ -97,6 +97,8 @@ This is the second paragraph.
 This *is* an /example/ of _some_ syntax +highlighting+ within =links= and ~such~.
 #+END_COMMENT
 
+Sembra che non gestisca neanche i tag dei commenti
+
 ** Export info
 #+TITLE: README
 #+AUTHOR: luca canali
