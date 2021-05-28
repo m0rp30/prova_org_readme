@@ -1,0 +1,8 @@
+* README
+
+Questo è un file di prova per vedere se github gestisce i file .org come i file .md
+
+** Tabella
+| uno | due |
+|-----|-----|
+| cambo uno | campo due |
